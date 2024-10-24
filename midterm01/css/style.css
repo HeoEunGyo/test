@@ -1,0 +1,111 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00a6ed;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title p {
+  font-size: 1.2rem;
+}
+
+/* .scene {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+} */
+
+.ground1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ground2 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 50%;
+}
+
+.pig-body {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 10%;
+}
+
+.pig-head {
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  width: 7%;
+}
+
+.pig-leg1 {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  width: 5%;
+}
+
+.pig-leg2 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 5%;
+}
+
+.cow {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 15%;
+}
+
+.sheep {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  width: 10%;
+}
+
+.windmill {
+  position: absolute;
+  width: 15%;
+  height: 40%;
+  bottom: 50%;
+  right: 10%;
+}
